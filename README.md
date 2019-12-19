@@ -39,7 +39,14 @@ gildong.lmplot('Velocity (km/s)','vy','Altitude (km)')
 ```
 gildong.boxplot('Altitude (km)','Velocity (km/s)')
 ```
-![44](https://user-images.githubusercontent.com/54211648/71187627-c4dc6780-22c2-11ea-90f0-d0dc78094dc0.JPG)
+![44](https://user-images.githubusercontent.com/54211648/71187939-68c61300-22c3-11ea-9eca-a9d743129c2f.JPG)
 boxplot 을 이용하여 데이터를 그래프로 표현했습니다.
 대체적으로 고도가 높을수록 빠른 속도를 갖고있습니다.
 예외적으로 낮은 고도에서도 빠른 속도를 가질수 있습니다.
+
+```
+gildong.plot_3d('Velocity (km/s)','Altitude (km)','vy')
+```
+![44](https://user-images.githubusercontent.com/54211648/71188040-9317d080-22c3-11ea-9442-a4572c098f6d.JPG)
+
+그래프를 보면 속도는 고도와 y위치와 상관관계를 갖는걸 알 수 있습니다.
