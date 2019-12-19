@@ -50,3 +50,9 @@ gildong.plot_3d('Velocity (km/s)','Altitude (km)','vy')
 ![55](https://user-images.githubusercontent.com/54211648/71188106-adea4500-22c3-11ea-8abe-4caa1dce26ac.JPG)
 
 그래프를 보면 속도는 고도와 y위치와 상관관계를 갖는걸 알 수 있습니다.
+
+3. 데이터 학습하기
+- 별똥별 데이터에서 고도 xyz 값을 이용해 속도를 학습.
+
+1. LinearRegression
+
