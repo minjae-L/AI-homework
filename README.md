@@ -36,3 +36,10 @@ gildong.lmplot('Velocity (km/s)','vy','Altitude (km)')
 ![33](https://user-images.githubusercontent.com/54211648/71186976-82fef180-22c1-11ea-82da-b1e75ef863f9.JPG)
 
 이 그래프는 속도와 y값에 따른 고도 위치를 보여주고있다. 보통 속도와 y값이 높다면 고도가 높은곳에서 떨어지는 별똥별으로 추정할 수 있다.
+```
+gildong.boxplot('Altitude (km)','Velocity (km/s)')
+```
+![44](https://user-images.githubusercontent.com/54211648/71187627-c4dc6780-22c2-11ea-90f0-d0dc78094dc0.JPG)
+boxplot 을 이용하여 데이터를 그래프로 표현했습니다.
+대체적으로 고도가 높을수록 빠른 속도를 갖고있습니다.
+예외적으로 낮은 고도에서도 빠른 속도를 가질수 있습니다.
