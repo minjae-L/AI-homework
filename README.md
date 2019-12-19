@@ -27,3 +27,12 @@ gildong.heatmap(['Latitude (deg.)','Longitude (deg.)','Altitude (km)','Velocity 
 ```
 
 ![22](https://user-images.githubusercontent.com/54211648/71185764-69f54100-22bf-11ea-892b-a0d249a89bac.JPG)
+
+heatmap 을 이용해 별똥별의 속도와 가장 높은 상관관계는 Altitude (km) 이다. Altitude (km) 은 x,z 값보다 y 와 더 높은 상관관계를 갖고있다.
+
+```
+gildong.lmplot('Velocity (km/s)','vy','Altitude (km)')
+```
+![33](https://user-images.githubusercontent.com/54211648/71186976-82fef180-22c1-11ea-82da-b1e75ef863f9.JPG)
+
+이 그래프는 속도와 y값에 따른 고도 위치를 보여주고있다. 보통 속도와 y값이 높다면 고도가 높은곳에서 떨어지는 별똥별으로 추정할 수 있다.
