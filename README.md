@@ -54,5 +54,9 @@ gildong.plot_3d('Velocity (km/s)','Altitude (km)','vy')
 3. 데이터 학습하기
 - 별똥별 데이터에서 고도 xyz 값을 이용해 속도를 학습.
 
-1. LinearRegression
+1. LinearRegression,KNeighborsRegressor, DecisionTreeRegressor, RandomForestRegressor 네가지 방법 동시 실행
+```
+gildong.run_all(['Altitude (km)','vx','vy'],'Velocity (km/s)')
+```
 
+![77](https://user-images.githubusercontent.com/54211648/71192889-7633cb00-22cc-11ea-9155-627152bfc6ff.JPG)
