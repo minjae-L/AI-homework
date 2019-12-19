@@ -47,6 +47,6 @@ boxplot 을 이용하여 데이터를 그래프로 표현했습니다.
 ```
 gildong.plot_3d('Velocity (km/s)','Altitude (km)','vy')
 ```
-![44](https://user-images.githubusercontent.com/54211648/71188040-9317d080-22c3-11ea-9442-a4572c098f6d.JPG)
+![55](https://user-images.githubusercontent.com/54211648/71188106-adea4500-22c3-11ea-8abe-4caa1dce26ac.JPG)
 
 그래프를 보면 속도는 고도와 y위치와 상관관계를 갖는걸 알 수 있습니다.
