@@ -15,3 +15,4 @@ gildong.read('cneos_fireball_data.csv')
 gildong.show_unique_column()
 ```
 
+![11](https://user-images.githubusercontent.com/54211648/71184985-e8e97a00-22bd-11ea-9464-ef92da3ebcfe.JPG)
