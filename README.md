@@ -7,8 +7,11 @@
 - 데이터 : https://www.kaggle.com/nasa/fireballs/data
 
 1. 데이터 불러오기
- ```from prediction_util import PredictionUtil
+ ```
+from prediction_util import PredictionUtil
 
 gildong = PredictionUtil()
 gildong.read('cneos_fireball_data.csv')
-gildong.show_unique_column()```
+gildong.show_unique_column()
+```
+
